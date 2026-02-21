@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { Client, GatewayIntentBits } from 'discord.js';
 import { Player } from 'discord-player';
+import { DefaultExtractors } from '@discord-player/extractor';
 
 const client = new Client({
     intents: [
@@ -43,7 +44,7 @@ player.events.on('error', (queue, error) => {
 client.on('ready', async () => {
     console.log(`¡Logeado como ${client.user.tag}!`);
     // Extraer extractores por defecto (YouTube, Spotify, SoundCloud, etc)
-    await player.extractors.loadDefault();
+    await player.extractors.loadMulti(DefaultExtractors);
 });
 
 const PREFIX = 'L!';

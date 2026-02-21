@@ -1,0 +1,223 @@
+2026-02-21T23:00:44.672871338Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:00:44.672875656Z [inf]  
+2026-02-21T23:00:44.672879301Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:00:44.672882916Z [inf]  > node index.js
+2026-02-21T23:00:44.672887037Z [inf]  
+2026-02-21T23:00:44.876124331Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:00:44.876126891Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:00:44.876129261Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:00:44.877212012Z [err]  node:events:497
+2026-02-21T23:00:44.877216301Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:00:44.877220017Z [err]        ^
+2026-02-21T23:00:44.877223579Z [err]  
+2026-02-21T23:00:44.877227130Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:00:44.877231154Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:00:44.877234239Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:00:44.877237241Z [err]  
+2026-02-21T23:00:44.877240086Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:00:44.877274845Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:00:44.877279504Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:00:44.877282486Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:00:44.877285759Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:00:44.877288791Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:00:44.877291758Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:00:44.877294725Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:00:44.877297996Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:00:44.877301542Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:00:44.877305179Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:00:44.878100046Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:00:44.878104701Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:00:44.878107718Z [err]  
+2026-02-21T23:00:44.878110434Z [err]  Node.js v22.22.0
+2026-02-21T23:00:44.920633865Z [inf]  Starting Container
+2026-02-21T23:00:45.396893768Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:00:45.417738180Z [inf]  
+2026-02-21T23:00:45.417741283Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:00:45.417744477Z [inf]  > node index.js
+2026-02-21T23:00:45.417747749Z [inf]  
+2026-02-21T23:00:46.363396764Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:00:46.363405294Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:00:46.363405765Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:00:46.363412218Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:00:46.363414915Z [err]        ^
+2026-02-21T23:00:46.363419203Z [err]  
+2026-02-21T23:00:46.363422629Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:00:46.363427282Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:00:46.363428260Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:00:46.363432108Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:00:46.363433779Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:00:46.363436664Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:00:46.363438932Z [err]  
+2026-02-21T23:00:46.363440905Z [err]  node:events:497
+2026-02-21T23:00:46.363443129Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:00:46.363446395Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:00:46.363449633Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:00:46.363452998Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:00:46.363455799Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:00:46.364294683Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:00:46.364298423Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:00:46.364301237Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:00:46.364304088Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:00:46.364307608Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:00:46.364310721Z [err]  
+2026-02-21T23:00:46.364313565Z [err]  Node.js v22.22.0
+2026-02-21T23:00:46.906543576Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:00:46.917987989Z [inf]  
+2026-02-21T23:00:46.917992247Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:00:46.917995558Z [inf]  > node index.js
+2026-02-21T23:00:46.917998495Z [inf]  
+2026-02-21T23:00:50.194571687Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:00:50.194576295Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:00:50.194579457Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:00:50.195957404Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:00:50.195965052Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:00:50.195968945Z [err]  node:events:497
+2026-02-21T23:00:50.195974422Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:00:50.195978641Z [err]        ^
+2026-02-21T23:00:50.195982659Z [err]  
+2026-02-21T23:00:50.195986379Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:00:50.195990420Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:00:50.195993671Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:00:50.195996813Z [err]  
+2026-02-21T23:00:50.196000500Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:00:50.196004740Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:00:50.196007555Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:00:50.196010704Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:00:50.196014217Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:00:50.196017706Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:00:50.196020449Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:00:50.196023155Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:00:50.196026041Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:00:50.196920633Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:00:50.196925111Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:00:50.196927964Z [err]  
+2026-02-21T23:00:50.196930652Z [err]  Node.js v22.22.0
+2026-02-21T23:00:50.692910060Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:00:50.706074398Z [inf]  
+2026-02-21T23:00:50.706078448Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:00:50.706081183Z [inf]  > node index.js
+2026-02-21T23:00:50.706084115Z [inf]  
+2026-02-21T23:00:56.841778689Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:00:56.841780674Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:00:56.841785696Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:00:56.841791424Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:00:56.841792511Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:00:56.841799743Z [err]  node:events:497
+2026-02-21T23:00:56.841800549Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:00:56.841805923Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:00:56.841808040Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:00:56.841811944Z [err]        ^
+2026-02-21T23:00:56.841815962Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:00:56.841818963Z [err]  
+2026-02-21T23:00:56.841823818Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:00:56.841827390Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:00:56.841831248Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:00:56.841834276Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:00:56.841841198Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:00:56.841841483Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:00:56.841846488Z [err]  
+2026-02-21T23:00:56.841881078Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:00:56.841885657Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:00:56.841890297Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:00:56.841894864Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:00:56.841899389Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:00:56.841904124Z [err]  
+2026-02-21T23:00:56.841908110Z [err]  Node.js v22.22.0
+2026-02-21T23:00:57.338875765Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:00:57.357713526Z [inf]  
+2026-02-21T23:00:57.357718174Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:00:57.357721469Z [inf]  > node index.js
+2026-02-21T23:00:57.357724744Z [inf]  
+2026-02-21T23:01:03.807632837Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:01:03.807640419Z [err]  node:events:497
+2026-02-21T23:01:03.807645384Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:01:03.807649932Z [err]        ^
+2026-02-21T23:01:03.807654308Z [err]  
+2026-02-21T23:01:03.807658960Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:01:03.807662259Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:01:03.807665448Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:01:03.807669879Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:01:03.807671754Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:01:03.807675702Z [err]  
+2026-02-21T23:01:03.807679571Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:01:03.807683403Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:01:03.807689020Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:01:03.807692251Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:01:03.807695836Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:01:03.807699437Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:01:03.807702784Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:01:03.807707036Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:01:03.808508557Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:01:03.808513009Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:01:03.808515920Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:01:03.808518421Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:01:03.808522561Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:01:03.808525389Z [err]  
+2026-02-21T23:01:03.808528126Z [err]  Node.js v22.22.0
+2026-02-21T23:01:04.447041396Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:01:04.460267077Z [inf]  
+2026-02-21T23:01:04.460270366Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:01:04.460273712Z [inf]  > node index.js
+2026-02-21T23:01:04.460277052Z [inf]  
+2026-02-21T23:01:05.733598577Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:01:05.733606044Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:01:05.733609796Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:01:05.733614292Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:01:05.733617445Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:01:05.733620855Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:01:05.733643085Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:01:05.733647851Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:01:05.733651171Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:01:05.733654258Z [err]  node:events:497
+2026-02-21T23:01:05.733657580Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:01:05.733661461Z [err]        ^
+2026-02-21T23:01:05.733664921Z [err]  
+2026-02-21T23:01:05.733668070Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:01:05.733671683Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:01:05.733676275Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:01:05.733679199Z [err]  
+2026-02-21T23:01:05.733683140Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:01:05.733686207Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:01:05.734475015Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:01:05.734478417Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:01:05.734482862Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:01:05.734486140Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:01:05.734489629Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:01:05.734493247Z [err]  
+2026-02-21T23:01:05.734496466Z [err]  Node.js v22.22.0
+2026-02-21T23:01:06.176884264Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:01:06.183588147Z [inf]  
+2026-02-21T23:01:06.183592643Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:01:06.183595927Z [inf]  > node index.js
+2026-02-21T23:01:06.183599232Z [inf]  
+2026-02-21T23:01:12.864708133Z [err]  
+2026-02-21T23:01:12.864714750Z [err]      at _ExtractorExecutionContext.loadDefault (/app/node_modules/discord-player/dist/index.js:2094:11)
+2026-02-21T23:01:12.864719003Z [err]      at Client.<anonymous> (file:///app/index.js:46:29)
+2026-02-21T23:01:12.864722136Z [err]      at Client.emit (node:events:519:28)
+2026-02-21T23:01:12.864725502Z [err]      at WebSocketManager.triggerClientReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:21)
+2026-02-21T23:01:12.864729035Z [err]      at WebSocketManager.checkShardsReady (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:368:10)
+2026-02-21T23:01:12.864733305Z [err]      at WebSocketShard.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:198:16)
+2026-02-21T23:01:12.864736057Z [inf]  ¡Logeado como LagMusic#4010!
+2026-02-21T23:01:12.864740841Z [err]  (node:25) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+2026-02-21T23:01:12.864741167Z [err]      at WebSocketShard.emit (node:events:519:28)
+2026-02-21T23:01:12.864744841Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-21T23:01:12.864746754Z [err]      at WebSocketShard.checkReady (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:184:12)
+2026-02-21T23:01:12.864749223Z [err]  node:events:497
+2026-02-21T23:01:12.864751980Z [err]        throw er; // Unhandled 'error' event
+2026-02-21T23:01:12.864754682Z [err]        ^
+2026-02-21T23:01:12.864757319Z [err]  
+2026-02-21T23:01:12.864759929Z [err]  Error: extractors.loadDefault() is no longer supported. Use extractors.loadMulti instead. Example:
+2026-02-21T23:01:12.864762992Z [err]  	import { DefaultExtractors } from '@discord-player/extractor';
+2026-02-21T23:01:12.864765655Z [err]  	await player.extractors.loadMulti(DefaultExtractors);
+2026-02-21T23:01:12.866119282Z [err]      at WebSocketShard.gotGuild (/app/node_modules/discord.js/src/client/websocket/WebSocketShard.js:158:10)
+2026-02-21T23:01:12.866123054Z [err]      at WebSocketManager.<anonymous> (/app/node_modules/discord.js/src/client/websocket/WebSocketManager.js:238:15)
+2026-02-21T23:01:12.866126544Z [err]  Emitted 'error' event on Client instance at:
+2026-02-21T23:01:12.866129601Z [err]      at emitUnhandledRejectionOrErr (node:events:402:10)
+2026-02-21T23:01:12.866132687Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:92:21)
+2026-02-21T23:01:12.866136153Z [err]  
+2026-02-21T23:01:12.866139152Z [err]  Node.js v22.22.0
+2026-02-21T23:01:14.016494256Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-02-21T23:01:14.018523819Z [inf]  
+2026-02-21T23:01:14.018527854Z [inf]  > rest-express@1.0.0 start
+2026-02-21T23:01:14.018531921Z [inf]  > node index.js
+2026-02-21T23:01:14.018536025Z [inf]  
