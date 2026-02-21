@@ -46,7 +46,7 @@ client.on('ready', async () => {
     await player.extractors.loadDefault();
 });
 
-const PREFIX = '!';
+const PREFIX = 'L!';
 
 client.on('messageCreate', async (message) => {
     if (message.author.bot || !message.guild) return;
