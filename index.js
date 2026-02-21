@@ -2,6 +2,8 @@ import 'dotenv/config';
 import { Client, GatewayIntentBits } from 'discord.js';
 import { Player } from 'discord-player';
 import { DefaultExtractors } from '@discord-player/extractor';
+import { YoutubeiExtractor } from 'discord-player-youtubei';
+import { BridgeProvider, BridgeSource } from '@discord-player/extractor';
 
 const client = new Client({
     intents: [
@@ -13,7 +15,13 @@ const client = new Client({
 });
 
 // Crear un nuevo reproductor
-const player = new Player(client);
+const player = new Player(client, {
+    ytdlOptions: {
+        quality: 'highestaudio',
+        highWaterMark: 1 << 25
+    }
+});
+player.events.on('debug', console.log);
 
 // Agregar listeners básicos
 player.events.on('playerStart', (queue, track) => {
@@ -45,6 +53,10 @@ client.on('ready', async () => {
     console.log(`¡Logeado como ${client.user.tag}!`);
     // Extraer extractores por defecto (YouTube, Spotify, SoundCloud, etc)
     await player.extractors.loadMulti(DefaultExtractors);
+    await player.extractors.register(YoutubeiExtractor, { authentication: process.env.YOUTUBE_AUTH || '' });
+
+    // Configurar puente para cuando SoundCloud / otros fallen
+    // No necesitamos BridgeProvider, con loadMulti(DefaultExtractors) y YoutubeiExtractor debería bastar
 });
 
 const PREFIX = 'L!';
@@ -73,7 +85,8 @@ client.on('messageCreate', async (message) => {
                     leaveOnEmptyCooldown: 300000,
                     leaveOnEnd: true,
                     leaveOnEndCooldown: 300000,
-                }
+                },
+                searchEngine: 'youtubeExt'
             });
             
             return message.reply(`⏳ | Cargando tu pista...`);
