@@ -1,9 +1,9 @@
 import 'dotenv/config';
+import express from 'express';
 import { Client, GatewayIntentBits } from 'discord.js';
 import { Player } from 'discord-player';
 import { DefaultExtractors } from '@discord-player/extractor';
 import { YoutubeiExtractor } from 'discord-player-youtubei';
-import { BridgeProvider, BridgeSource } from '@discord-player/extractor';
 
 const client = new Client({
     intents: [
@@ -56,7 +56,6 @@ client.on('ready', async () => {
     await player.extractors.register(YoutubeiExtractor, { authentication: process.env.YOUTUBE_AUTH || '' });
 
     // Configurar puente para cuando SoundCloud / otros fallen
-    // No necesitamos BridgeProvider, con loadMulti(DefaultExtractors) y YoutubeiExtractor debería bastar
 });
 
 const PREFIX = 'L!';
@@ -136,3 +135,16 @@ client.on('messageCreate', async (message) => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+
+  // --- Dummy Web Server para Railway ---
+  const app = express();
+  const port = process.env.PORT || 3000;
+
+  app.get('/', (req, res) => {
+      res.send('Bot de música activo y funcionando 🎵');
+  });
+
+  app.listen(port, () => {
+      console.log(`Servidor web escuchando en el puerto ${port} para mantener el bot vivo en Railway.`);
+  });
+  
